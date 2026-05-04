@@ -26,6 +26,19 @@ header comments, and `run.sh` reads the exact invocation from the RUN line in th
 | 2 | 09–16 | Grouping, reduce, custom functions, parameters, recursion, updates, regex |
 | 3 | 17–24 | Error handling, paths, `inputs`, `$ARGS`, formatting, generators, joins, capstone |
 
+## Reference solutions
+
+Each exercise has an idiomatic reference solution in `reference/`.
+Compare your work against it after solving:
+
+```
+$ ./reference/run.sh 5    # shows the reference answer for exercise 5
+```
+
+The reference solutions are written to demonstrate idiomatic jq — the way
+experienced users actually write filters. Same runner, same output format, just
+invoked from the `reference/` directory.
+
 ## Prerequisites
 
 - jq 1.7+
