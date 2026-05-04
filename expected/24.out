@@ -1,0 +1,34 @@
+[
+  {
+    "level": "ERROR",
+    "type": "db",
+    "msg": "Connection timeout",
+    "details": {
+      "code": 500,
+      "reason": "timeout",
+      "retries": 3
+    },
+    "processedAt": 0
+  },
+  {
+    "level": "ERROR",
+    "type": "http",
+    "msg": "Not found",
+    "details": {
+      "code": 404
+    },
+    "processedAt": 0
+  },
+  {
+    "level": "ERROR",
+    "type": "db",
+    "msg": "Deadlock",
+    "details": {
+      "code": 500
+    },
+    "processedAt": 0
+  }
+]
+"\"type\",\"count\""
+"\"db\",2"
+"\"http\",1"

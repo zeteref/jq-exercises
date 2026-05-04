@@ -1,0 +1,10 @@
+[
+  {
+    "cat": "books",
+    "avgPrice": 15
+  },
+  {
+    "cat": "electronics",
+    "avgPrice": 100
+  }
+]

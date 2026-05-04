@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Mouse",
+    "price": 25,
+    "rating": 4.2,
+    "in_stock": true
+  },
+  {
+    "name": "Keyboard",
+    "price": 45,
+    "rating": 3.9,
+    "in_stock": true
+  }
+]

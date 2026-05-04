@@ -39,6 +39,19 @@ The reference solutions are written to demonstrate idiomatic jq — the way
 experienced users actually write filters. Same runner, same output format, just
 invoked from the `reference/` directory.
 
+## Testing your solutions
+
+Run `./test.sh <number>` to verify your solution against the expected output:
+
+```
+$ ./test.sh 5           # pass/fail for exercise 5
+$ ./test.sh              # test all 24 exercises
+```
+
+The test compares your output to expected output files in `expected/`,
+using semantic JSON comparison where applicable (order-independent key matching)
+and direct text comparison for exercises with CSV or mixed output.
+
 ## Prerequisites
 
 - jq 1.7+

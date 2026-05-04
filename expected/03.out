@@ -1,0 +1,16 @@
+{
+  "lastTwo": [
+    "Rome",
+    "Vienna"
+  ],
+  "firstThreeReversed": [
+    "Berlin",
+    "Paris",
+    "London"
+  ],
+  "everySecond": [
+    "Paris",
+    "Madrid",
+    "Vienna"
+  ]
+}
