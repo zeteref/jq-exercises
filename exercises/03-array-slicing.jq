@@ -6,8 +6,8 @@
 #     - "firstThreeReversed": the first 3 cities in reverse order
 #     - "everySecond":        every 2nd city starting from index 1
 #
-#   Use Python-like slicing [start:end] and negative indices.
-#   .[-3:] is last 3 elements. [::2] for every 2nd.
+#   Use slicing [start:end] and negative indices (e.g. .[-2:]).
+#   For step-based selection, try: [.[range(1; length; 2)]]
 #
 # Sample Input:  ["London", "Paris", "Berlin", "Madrid", "Rome", "Vienna"]
 # Expected:

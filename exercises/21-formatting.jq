@@ -19,7 +19,7 @@
 #
 # Key takeaway: @csv etc. replace most "jq | csvkit" pipelines.
 #
-# RUN: jq -n -f exercises/21-formatting.jq
+# RUN: jq -rn -f exercises/21-formatting.jq
 
 def solve:
   # TODO: @csv and tojson — two separate outputs with comma
